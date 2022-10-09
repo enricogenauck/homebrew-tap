@@ -1,13 +1,13 @@
 # brew install enricogenauck/tap/transcribe
 
 class Transcribe < Formula
-  version "0.0.1"
+  version "0.0.2"
   desc "transcribe is a wrapper for vosk-transcriber"
   homepage "https://github.com/enricogenauck/transcribe"
   url "https://github.com/enricogenauck/transcribe",
       using:    :git,
       branch:   "main",
-      revision: "282c6609d1b4406d119c7fa7647fd6df534332b8"
+      revision: "720a3f528f663e5dbc24bd760150b708696d8995"
 
   depends_on "python"
 
